@@ -22,8 +22,8 @@
 
 		function importevents() {
 
-			$username = 'fullofevents';
-			$password = 'a477e90439cc000242020a75aa67e33a';
+			$username = 'user';
+			$password = 'pass';
 			$today = date('Y-m-d',strtotime("-1 days"));
 			$loginUrl = 'https://api.evvnt.com/events?newer_than='."$today".'&country=US&page=1';
 
@@ -60,8 +60,8 @@
 
 		function importcategories() {
 
-			$username = 'fullofevents';
-			$password = 'a477e90439cc000242020a75aa67e33a';
+			$username = 'user';
+			$password = 'pass';
 			$loginUrl = 'https://api.evvnt.com/categories';
 
 
@@ -370,8 +370,8 @@
 
 	$url=json_encode($url);
 
-	$username = 'fullofevents';
-	$password = 'a477e90439cc000242020a75aa67e33a';
+	$username = 'user';
+	$password = 'pass';
 	$loginUrl = 'https://api.evvnt.com/publishers/4930/published_events/'.$data[id];
 
 	
